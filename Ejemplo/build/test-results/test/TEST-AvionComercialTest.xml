@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AvionComercialTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-23T14:32:38" hostname="DESKTOP-F5B6TD9" time="0.02">
+  <properties/>
+  <testcase name="testGetConsumoCombustibleIgualA30000()" classname="AvionComercialTest" time="0.018"/>
+  <testcase name="testVolarCombustibleIgualA25000()" classname="AvionComercialTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
