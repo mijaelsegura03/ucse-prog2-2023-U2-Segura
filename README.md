@@ -18,7 +18,7 @@ hilos.
 
 # Correcciones - Estado: 
 ## Necesarias para aprobar:
-- Ejercicio 2: Deben duplicar el codigo anterior, no modificarlo en el mismo archivo. El test debería de ir en la carpeta de tests. Deberían de utilizar el modo de Benchmarking AverageTime, utilizar milisegundos, y NO utilizar optimizaciones del compilador JIT (Just In Time). Para ésto deberían de utilizar el objeto BlackHole, el cual les permite tener resultados sin sesgos en cuanto a la optimización del compilador, pueden ver un ejemplo acá https://www.baeldung.com/java-microbenchmark-harness#dead-code-elimination 
+- Ejercicio 2: Deben duplicar el codigo anterior, no modificarlo en el mismo archivo. Deberían de utilizar el modo de Benchmarking AverageTime, utilizar milisegundos, y NO utilizar optimizaciones del compilador JIT (Just In Time). Para ésto deberían de utilizar el objeto BlackHole, el cual les permite tener resultados sin sesgos en cuanto a la optimización del compilador, pueden ver un ejemplo acá https://www.baeldung.com/java-microbenchmark-harness#dead-code-elimination 
 
 ## Adicionales:
 - Ejercicio 1: Podría haber chequeado en CalculadorCombustibleTest cuando instance == null.
