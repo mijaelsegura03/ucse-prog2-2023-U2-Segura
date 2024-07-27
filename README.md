@@ -4,11 +4,13 @@
 <br>
 <b>Resultado pruebas benchmark:</b>
 <br>
-![image](https://github.com/mijaelsegura03/ucse-prog2-2023-U2-Segura/assets/130618172/261caa56-39ba-4f1b-b6f3-d01abc81aa2d)
+![image](https://github.com/user-attachments/assets/8f0cbd48-ba95-44c4-b5d6-ba25266350f5)
 <br>
 En las pruebas benchmark lo que se está haciendo es comparar el rendimiento en la ejecución de la misma tarea de dos formas distintas, utilizando paralellStream y Stream.
 <br>
-Podemos observar que los resultados se miden en ops/s que son las operaciones por segundo que realiza cada forma de ejecución de la tarea, para poder asignar un puntaje a cada una en base a dicha unidad, y así compararlas.
+Podemos observar que los resultados se miden en ms/ops que son las operaciones por milisegundo que realiza cada forma de ejecución de la tarea, para poder asignar un puntaje a cada una en base a dicha unidad, y así compararlas.
+<br>
+También se hace uso del objeto BlackHole, para evitar las optimizaciones del compilador JIT y así obtener unos resultados más precisos.
 <br>
 <br>
 La conclusión a la que podemos llegar es que el paralelismo obtiene una cantidad de operaciones por segundo bastante mayor que la concurrencia, esto debido a que paralellStream nos permite
@@ -16,11 +18,7 @@ mejorar el rendimiento en la realización de una tarea a través del uso de múl
 hilos.
 
 
-# Correcciones - Estado: 
-## Necesarias para aprobar:
-- Ejercicio 2: Deben duplicar el codigo anterior, no modificarlo en el mismo archivo. Deberían de utilizar el modo de Benchmarking AverageTime, utilizar milisegundos, y NO utilizar optimizaciones del compilador JIT (Just In Time). Para ésto deberían de utilizar el objeto BlackHole, el cual les permite tener resultados sin sesgos en cuanto a la optimización del compilador, pueden ver un ejemplo acá https://www.baeldung.com/java-microbenchmark-harness#dead-code-elimination 
 
 ## Adicionales:
 - Ejercicio 1: Podría haber chequeado en CalculadorCombustibleTest cuando instance == null.
 - Deberían de actualizar el .gitignore para no incluir los archivos generados al compilar, ni los archivos propios del framework que utilicen (.idea, .vscode, etc). De lo contrario se pueden pushear archivos indeseados, como la carpeta build, "hs_err_pid5148.log" y otros.
-- Los tests siempre deberían de ir en el mismo package y tener la misma estructura de carpetas que en main, por lo tanto en vez de ir en test/java deberían de ir dentro de test/java/org/example
