@@ -1,6 +1,5 @@
-import org.example.Avion;
-import org.example.AvionPrivado;
-import org.example.CalculadorCombustible;
+package org.example;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
